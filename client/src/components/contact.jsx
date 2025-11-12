@@ -49,7 +49,7 @@ function Contact() {
                 </div>
 
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.524959504441!2d73.83707227494386!3d18.52043098739844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c0a8c9a2e69b%3A0xdaa8b7a1c1c1f8e7!2sPune%2C%20Maharashtra%2C%20India!5e0!3m2!1sen!2sin!4v1702110000000!5m2!1sen!2sin"
                   style={{ border: 0, width: "100%", height: "270px" }}
                   allowFullScreen
                   loading="lazy"
