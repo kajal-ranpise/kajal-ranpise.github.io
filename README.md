@@ -2,6 +2,25 @@
 
 This project is a MERN (MongoDB, Express, React, Node.js) application that allows users to manage their profiles. It consists of a client-side React application and a server-side Node.js application.
 
+## 🚀 Tech Stack
+
+### **Frontend**
+- React.js
+- Redux Toolkit
+- JavaScript
+- HTML5
+- CSS3
+
+### **Backend**
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+
+### **Tools**
+- Git & GitHub
+- VS Code
+- npm
 ## Project Structure
 
 ```
