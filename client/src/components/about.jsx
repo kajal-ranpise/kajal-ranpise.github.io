@@ -95,9 +95,9 @@ function About() {
         <div className="container section-title" data-aos="fade-up">
           <h2>About</h2>
           <p>
-            I am a Full Stack Developer specializing in React.js (frontend)
-            and Node.js/Express (backend) with strong experience in end-to-end
-            web development.
+            I am a Full Stack Developer specializing in React.js (frontend) and
+            Node.js/Express (backend) with strong experience in end-to-end web
+            development.
           </p>
         </div>
 
@@ -107,13 +107,13 @@ function About() {
               <img src={profileImg} className="img-fluid" alt="Profile" />
             </div>
             <div className="col-lg-8 content">
-              <h2>Full Stack &amp; Web Developer</h2>
+              <h2>Full Stack &amp; Web App Developer</h2>
               <p className="fst-italic py-3">
                 To stay ahead, I integrate AI-powered tools into my workflow –
                 leveraging ChatGPT for brainstorming, documentation, and
-                debugging, and GitHub Copilot for accelerating development.
-                This allows me to deliver high-quality code faster and focus
-                more on solving complex business problems.
+                debugging, and GitHub Copilot for accelerating development. This
+                allows me to deliver high-quality code faster and focus more on
+                solving complex business problems.
               </p>
 
               <div className="row">
@@ -121,24 +121,22 @@ function About() {
                   <ul>
                     <li>
                       <i className="bi bi-chevron-right"></i>{" "}
-                      <strong>Birthday:</strong> <span>25 Sep 1996</span>
-                    </li>
-                    <li>
-                      <i className="bi bi-chevron-right"></i>{" "}
                       <strong>Phone:</strong> <span>+91 7040147091</span>
                     </li>
                     <li>
                       <i className="bi bi-chevron-right"></i>{" "}
-                      <strong>City:</strong> <span>Pune, MH, IN</span>
+                      <strong>Location:</strong> <span>Pune, India</span>
+                    </li>
+                    <li>
+                      <i className="bi bi-chevron-right"></i>{" "}
+                      <strong>Role:</strong>{" "}
+                      <span>Full Stack Developer (MERN)</span>
                     </li>
                   </ul>
                 </div>
+
                 <div className="col-lg-6">
                   <ul>
-                    <li>
-                      <i className="bi bi-chevron-right"></i>{" "}
-                      <strong>Age:</strong> <span>{age}</span>
-                    </li>
                     <li>
                       <i className="bi bi-chevron-right"></i>{" "}
                       <strong>Degree:</strong>{" "}
@@ -149,6 +147,36 @@ function About() {
                       <strong>Email:</strong>{" "}
                       <span>kajaldranpise@gmail.com</span>
                     </li>
+                    <li>
+                      <i className="bi bi-chevron-right"></i>{" "}
+                      <strong>Availability:</strong> <span>Open to Work</span>
+                    </li>
+                    <li>
+                      <i className="bi bi-chevron-right"></i>{" "}
+                      <strong>GitHub:</strong>{" "}
+                      <span>
+                        <a
+                          href="https://github.com/kajal-ranpise"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          github.com/kajal-ranpise
+                        </a>
+                      </span>
+                    </li>
+                    <li>
+                      <i className="bi bi-chevron-right"></i>{" "}
+                      <strong>LinkedIn:</strong>{" "}
+                      <span>
+                        <a
+                          href="https://www.linkedin.com/in/kajal-ranpise/"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          View LinkedIn Profile
+                        </a>
+                      </span>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -157,11 +185,11 @@ function About() {
                 Results-driven and detail-oriented MERN Stack Developer with
                 hands-on experience in designing, developing, and maintaining
                 scalable web applications using Express.js, React.js, Node.js,
-                MySQL, and MongoDB. Proficient in RESTful APIs, modern
-                front-end frameworks, CI/CD pipelines, and deployment
-                (Hostinger and DigitalOcean). Adept at collaborating with
-                cross-functional teams to deliver high-quality, user-focused
-                solutions in Agile environments.
+                MySQL, and MongoDB. Proficient in RESTful APIs, modern front-end
+                frameworks, CI/CD pipelines, and deployment (Hostinger and
+                DigitalOcean). Adept at collaborating with cross-functional
+                teams to deliver high-quality, user-focused solutions in Agile
+                environments.
               </p>
             </div>
           </div>
@@ -173,7 +201,10 @@ function About() {
       <section id="skills" className="skills section">
         <div className="container section-title" data-aos="fade-up">
           <h2>Skills & Expertise</h2>
-          <p>Technologies and tools I use to design, build, and optimize applications.</p>
+          <p>
+            Technologies and tools I use to design, build, and optimize
+            applications.
+          </p>
         </div>
 
         <div className="container" data-aos="fade-up" data-aos-delay="100">
@@ -234,7 +265,10 @@ function About() {
 
       {/* Stats Section */}
       <section id="stats" className="stats section" ref={statsRef}>
-        <div className="container section-title" style={{ textAlign: "center" }}>
+        <div
+          className="container section-title"
+          style={{ textAlign: "center" }}
+        >
           <h2>Facts</h2>
           <p>People. Work. Growth. Always!</p>
         </div>

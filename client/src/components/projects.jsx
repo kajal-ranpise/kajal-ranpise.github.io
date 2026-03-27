@@ -64,7 +64,7 @@ const portfolioItems = [
     img: igtc,
     category: ["filter-php", "filter-mysql"],
     title: "IGTC",
-    desc: "Web portal for education management.",
+    desc: "Web App portal for education management.",
     industry: "Education",
     tech: ["PHP", "MySQL"],
     // features: ["Custom CMS", "Student Portal"],

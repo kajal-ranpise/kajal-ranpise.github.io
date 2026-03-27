@@ -9,16 +9,46 @@ import "swiper/css/pagination";
 import masonryPortfolio1 from "../assets/img/masonry-portfolio/masonry-portfolio-1.jpg";
 import masonryPortfolio2 from "../assets/img/masonry-portfolio/masonry-portfolio-2.jpg";
 import masonryPortfolio3 from "../assets/img/masonry-portfolio/masonry-portfolio-3.jpg";
+import igtc from "../assets/img/igtc.png";
+import igtcLogo from "../assets/img/logo-igtc.svg";
+import coowncart from "../assets/img/coowncart.png";
+import coowncart1 from "../assets/img/coowncart1.png";
+import exticket from "../assets/img/exticket.png";
+import titosLogo from "../assets/img/logo-titos.svg";
+import frspl from "../assets/img/frspl.png";
+import frspl1 from "../assets/img/frspl1.png";
+import autuskeyLogo from "../assets/img/logo.svg";
+import frsplLogo from "../assets/img/logo-frspl.svg";
+import peo from "../assets/img/peo.png";
+import peo1 from "../assets/img/peo1.png";
+import peoLogo from "../assets/img/logo-peo.svg";
+import titos from "../assets/img/titos.png";
+import titos1 from "../assets/img/titos1.png";
+import autuskey from "../assets/img/autuskey.png";
+import pula from "../assets/img/pula.png";
 
 const portfolioItems = [
   {
     id: "igtc",
-    images: [masonryPortfolio1],
+    images: [igtc, igtcLogo],
     info: [
-      { label: "Category", value: "React App" },
-      { label: "Client", value: "Client A" },
-      { label: "Project date", value: "01 Jan, 2022" },
-      { label: "Project URL", value: <a href="#">www.reactapp.com</a> },
+      { label: "Category", value: "Web App portal for education management." },
+      // { label: "Client", value: "Client A" },
+      { label: "Tech Stack", value: "Php, MySql" },
+      { label: "Project Team", value: "4 members" },
+      {
+        label: "Project URL",
+        value: (
+          <>
+            <br />
+            <a href="https://igtcindia.com/">https://igtcindia.com/</a>
+            <br />
+            <a href="https://access.igtcindia.com/">https://access.igtcindia.com/</a>
+            <br />
+            <a href="https://igtcindia.com/app/pgpba-32-mu/login/">https://igtcindia.com/app/pgpba-32-mu/login</a>
+          </>
+        ),
+      },
     ],
     title: "IGTC",
     description: "Description for App 1.",
@@ -95,6 +125,18 @@ const portfolioItems = [
     title: "Coowncart",
     description: "Description for MongoDB Branding 1.",
   },
+  {
+    id: "pula",
+    images: [masonryPortfolio3],
+    info: [
+      { label: "Category", value: "MongoDB Branding" },
+      { label: "Client", value: "Client F" },
+      { label: "Project date", value: "30 Jun, 2022" },
+      { label: "Project URL", value: <a href="#">www.mongodbbranding.com</a> },
+    ],
+    title: "Coowncart",
+    description: "Description for MongoDB Branding 1.",
+  },
 ];
 
 function ProjectDetails() {
@@ -103,9 +145,15 @@ function ProjectDetails() {
     AOS.init({ duration: 1000, once: true });
   }, []);
 
-  const project = portfolioItems.find(item => item.id === id);
+  const project = portfolioItems.find((item) => item.id === id);
   if (!project) {
-    return <main className="main portfolio-details-page"><div className="container section-title"><h2>Project Not Found</h2></div></main>;
+    return (
+      <main className="main portfolio-details-page">
+        <div className="container section-title">
+          <h2>Project Not Found</h2>
+        </div>
+      </main>
+    );
   }
 
   return (
@@ -134,7 +182,11 @@ function ProjectDetails() {
               </Swiper>
             </div>
             <div className="col-lg-4">
-              <div className="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+              <div
+                className="portfolio-info"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
                 <h3>Project information</h3>
                 <ul>
                   {project.info.map((item, idx) => (
@@ -144,7 +196,11 @@ function ProjectDetails() {
                   ))}
                 </ul>
               </div>
-              <div className="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+              <div
+                className="portfolio-description"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
                 <h2>{project.title}</h2>
                 <p>{project.description}</p>
               </div>
