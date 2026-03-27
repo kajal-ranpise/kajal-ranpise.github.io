@@ -2,7 +2,7 @@
   "name": "my-mern-app",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://kajal-ranpise.github.io/My-Profile-Kajal",
+  "homepage": "https://kajal-ranpise.github.io",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
