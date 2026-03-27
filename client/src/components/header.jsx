@@ -4,7 +4,7 @@ import { Link, useLocation } from "react-router-dom";
 function Header() {
   const location = useLocation();
   const menuItems = [
-    { path: "/My-Profile-Kajal", label: "Home" },
+    { path: "/portfolio", label: "Home" },
     { path: "/about", label: "About" },
     { path: "/resume", label: "Resume" },
     { path: "/services", label: "Services" },
